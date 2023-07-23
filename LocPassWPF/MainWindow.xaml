@@ -9,7 +9,10 @@
         WindowStyle="None"
         ResizeMode="NoResize"
         Background="Transparent"
-        AllowsTransparency="True">
+        AllowsTransparency="True"
+        MouseDown="Window_MouseDown"
+        MouseMove="Window_MouseMove"
+        MouseUp="Window_MouseUp">
     <Border Background="#272537"
             CornerRadius="0">
         <Grid>
