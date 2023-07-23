@@ -14,7 +14,7 @@
         MouseMove="Window_MouseMove"
         MouseUp="Window_MouseUp">
     <Border Background="#272537"
-            CornerRadius="0">
+            CornerRadius="10">
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="200"/>
@@ -78,6 +78,16 @@
                         Margin="0,5,10,0"
                         Style="{StaticResource MenuButton}" 
                         Click="CloseButton_OnClick"/>
+                <!-- Serch if will be need 
+                <TextBox Width="250"
+                         Height="40"
+                         VerticalAlignment="Center"
+                         HorizontalAlignment="Left"
+                         Margin="5"
+                         Grid.Column="0"
+                         Text="Enter some"
+                         Style="{StaticResource ModernTextBox}"></TextBox>
+                         -->
             </Grid>
         </Grid>
     </Border>

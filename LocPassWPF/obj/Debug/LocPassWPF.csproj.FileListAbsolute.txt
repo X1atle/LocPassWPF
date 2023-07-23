@@ -16,3 +16,4 @@ C:\Users\myron\OneDrive\Desktop\SelfStuding\CSharpProjects\LocPassWPF\LocPassWPF
 C:\Users\myron\OneDrive\Desktop\SelfStuding\CSharpProjects\LocPassWPF\LocPassWPF\obj\Debug\LocPassWPF.pdb
 C:\Users\myron\OneDrive\Desktop\SelfStuding\CSharpProjects\LocPassWPF\LocPassWPF\obj\Debug\Theme\MenuButtonTheme.baml
 C:\Users\myron\OneDrive\Desktop\SelfStuding\CSharpProjects\LocPassWPF\LocPassWPF\obj\Debug\App.baml
+C:\Users\myron\OneDrive\Desktop\SelfStuding\CSharpProjects\LocPassWPF\LocPassWPF\obj\Debug\Theme\TextboxTheme.baml
