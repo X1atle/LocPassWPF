@@ -1,0 +1,16 @@
+C:\Users\myron\OneDrive\Desktop\SelfStuding\CSharpProjects\LocPassWPF\LocPassWPF\bin\Debug\LocPassWPF.exe.config
+C:\Users\myron\OneDrive\Desktop\SelfStuding\CSharpProjects\LocPassWPF\LocPassWPF\bin\Debug\LocPassWPF.exe
+C:\Users\myron\OneDrive\Desktop\SelfStuding\CSharpProjects\LocPassWPF\LocPassWPF\bin\Debug\LocPassWPF.pdb
+C:\Users\myron\OneDrive\Desktop\SelfStuding\CSharpProjects\LocPassWPF\LocPassWPF\obj\Debug\LocPassWPF.csproj.AssemblyReference.cache
+C:\Users\myron\OneDrive\Desktop\SelfStuding\CSharpProjects\LocPassWPF\LocPassWPF\obj\Debug\LocPassWPF.csproj.SuggestedBindingRedirects.cache
+C:\Users\myron\OneDrive\Desktop\SelfStuding\CSharpProjects\LocPassWPF\LocPassWPF\obj\Debug\MainWindow.g.cs
+C:\Users\myron\OneDrive\Desktop\SelfStuding\CSharpProjects\LocPassWPF\LocPassWPF\obj\Debug\App.g.cs
+C:\Users\myron\OneDrive\Desktop\SelfStuding\CSharpProjects\LocPassWPF\LocPassWPF\obj\Debug\LocPassWPF_MarkupCompile.cache
+C:\Users\myron\OneDrive\Desktop\SelfStuding\CSharpProjects\LocPassWPF\LocPassWPF\obj\Debug\LocPassWPF_MarkupCompile.lref
+C:\Users\myron\OneDrive\Desktop\SelfStuding\CSharpProjects\LocPassWPF\LocPassWPF\obj\Debug\MainWindow.baml
+C:\Users\myron\OneDrive\Desktop\SelfStuding\CSharpProjects\LocPassWPF\LocPassWPF\obj\Debug\LocPassWPF.g.resources
+C:\Users\myron\OneDrive\Desktop\SelfStuding\CSharpProjects\LocPassWPF\LocPassWPF\obj\Debug\LocPassWPF.Properties.Resources.resources
+C:\Users\myron\OneDrive\Desktop\SelfStuding\CSharpProjects\LocPassWPF\LocPassWPF\obj\Debug\LocPassWPF.csproj.GenerateResource.cache
+C:\Users\myron\OneDrive\Desktop\SelfStuding\CSharpProjects\LocPassWPF\LocPassWPF\obj\Debug\LocPassWPF.csproj.CoreCompileInputs.cache
+C:\Users\myron\OneDrive\Desktop\SelfStuding\CSharpProjects\LocPassWPF\LocPassWPF\obj\Debug\LocPassWPF.exe
+C:\Users\myron\OneDrive\Desktop\SelfStuding\CSharpProjects\LocPassWPF\LocPassWPF\obj\Debug\LocPassWPF.pdb
