@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\myron\OneDrive\Desktop\SelfStuding\CSharpProjects\LocPassWPF\LocPassWPF\App.xaml
-31365566560
+4-820853319
 
-6-1654347846
+9-1385850257
 9-1753732648
-MainWindow.xaml;Theme\MenuButtonTheme.xaml;Theme\TextboxTheme.xaml;
+MainWindow.xaml;MVVM\View\HomeView.xaml;Theme\MenuButtonTheme.xaml;Theme\TextboxTheme.xaml;
 
 False
 
