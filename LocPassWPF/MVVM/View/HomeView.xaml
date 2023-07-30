@@ -10,7 +10,9 @@
              Foreground="White">
     
     <Border Background="#22202f"
-            CornerRadius="5">
+            CornerRadius="5"
+            BorderThickness="0.5"
+            BorderBrush="Black">
         <StackPanel>
             <TextBlock Foreground="White"></TextBlock>
             <TextBlock Text="Test text"
