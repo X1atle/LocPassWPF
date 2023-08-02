@@ -14,11 +14,5 @@ namespace LocPassWPF
         {
             InitializeComponent();
         }
-
-        private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
-        {
-            Window category = new CategoryWindow();
-            category.Show();
-        }
     }
 }

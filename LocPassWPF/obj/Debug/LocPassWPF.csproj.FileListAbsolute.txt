@@ -24,3 +24,5 @@ C:\Users\myron\OneDrive\Desktop\SelfStuding\CSharpProjects\LocPassWPF\LocPassWPF
 C:\Users\myron\OneDrive\Desktop\SelfStuding\CSharpProjects\LocPassWPF\LocPassWPF\obj\Debug\MVVM\View\NoteWindow.g.cs
 C:\Users\myron\OneDrive\Desktop\SelfStuding\CSharpProjects\LocPassWPF\LocPassWPF\obj\Debug\MVVM\View\CategoryWindow.baml
 C:\Users\myron\OneDrive\Desktop\SelfStuding\CSharpProjects\LocPassWPF\LocPassWPF\obj\Debug\MVVM\View\NoteWindow.baml
+C:\Users\myron\OneDrive\Desktop\SelfStuding\CSharpProjects\LocPassWPF\LocPassWPF\obj\Debug\MVVM\View\PasswordCreating.g.cs
+C:\Users\myron\OneDrive\Desktop\SelfStuding\CSharpProjects\LocPassWPF\LocPassWPF\obj\Debug\MVVM\View\PasswordCreating.baml

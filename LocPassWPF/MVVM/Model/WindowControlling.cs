@@ -1,5 +1,7 @@
 ﻿using System.Windows;
+using System.Windows.Controls;
 using System.Windows.Input;
+using LocPassWPF.MVVM.View;
 
 namespace LocPassWPF.Core
 {
@@ -36,6 +38,30 @@ namespace LocPassWPF.Core
         public void MinimizeButton_OnClick(object sender, RoutedEventArgs e)
         {
             this.WindowState = WindowState.Minimized;
+        }
+        public void CreateCategory_OnClick(object sender, RoutedEventArgs e)
+        {
+            Window category = new CategoryWindow();
+            category.Show();
+        }
+        public void CreateNote_OnClick(object sender, RoutedEventArgs e)
+        {
+            Window note = new NoteWindow();
+            note.Show();
+        }
+        public void CreatePassword_OnClick(object sender, RoutedEventArgs e)
+        {
+            Window passwordCreating = new PasswordCreating();
+            passwordCreating.Show();
+        }
+
+        public void CopyTextFromTextBoxByButton(TextBox textBox)
+        {
+            if (textBox != null)
+            {
+                string textToCopy = textBox.Text;
+                Clipboard.SetText(textToCopy);
+            }
         }
     }
 }
