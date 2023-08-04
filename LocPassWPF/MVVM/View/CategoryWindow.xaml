@@ -15,21 +15,54 @@
         MouseDown="Window_MouseDown"
         MouseMove="Window_MouseMove"
         MouseUp="Window_MouseUp">
+   
+
     <Border Background="#272537"
             CornerRadius="10"
             BorderThickness="0.5"
             BorderBrush="DimGray">
         <Grid>
-        <Button x:Name="MinimizeButton"  
-                Content="—" 
-                Width="30" Height="30" 
-                Foreground="White" 
-                FontSize="14"
-                HorizontalAlignment="Right" 
-                VerticalAlignment="Top"
-                Margin="0,5,40,0"
-                Style="{StaticResource MenuButton}"
-                Click="MinimizeButton_OnClick"/>
+            
+            <Border Margin="0,-70,0,0"
+                    CornerRadius="10"
+                    Background="#353340"
+                    Width="450" Height="40">
+                <TextBox x:Name="NameBox"
+                         Background="Transparent"
+                         Width="450"
+                         Height="40"
+                         VerticalAlignment="Center"
+                         HorizontalAlignment="Center"
+                         Text="{Binding CategoryName}"
+                         BorderThickness="0"
+                         FontSize="14"
+                         Foreground="White"
+                         TextAlignment="Center"
+                         Padding="0,10,0,0"
+                         IsReadOnly="False"/> 
+            </Border>
+            
+            <Button x:Name="Create_button"  
+                    Content="Create category" 
+                    Width="450" Height="40" 
+                    Foreground="White" 
+                    FontSize="14"
+                    HorizontalAlignment="Center" 
+                    VerticalAlignment="Top"
+                    Margin="0,190,0,0"
+                    Style="{StaticResource MenuButton}"
+                    Command="{Binding CreateCommand}" />
+
+            <Button x:Name="MinimizeButton"  
+                    Content="—" 
+                    Width="30" Height="30" 
+                    Foreground="White" 
+                    FontSize="14"
+                    HorizontalAlignment="Right" 
+                    VerticalAlignment="Top"
+                    Margin="0,5,40,0"
+                    Style="{StaticResource MenuButton}"
+                    Click="MinimizeButton_OnClick"/>
         <Button x:Name="CloseButton"  
                 Content="X" 
                 Width="30" Height="30" 

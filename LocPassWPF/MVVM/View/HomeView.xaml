@@ -4,19 +4,56 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:LocPassWPF.MVVM.View"
+             xmlns:viewModel="clr-namespace:LocPassWPF.MVVM.ViewModel"
              mc:Ignorable="d"
              d:DesignHeight="450" d:DesignWidth="800"
              Background="Transparent"
              Foreground="White">
+    <UserControl.DataContext>
+        <viewModel:HomeViewModel />
+    </UserControl.DataContext>
     
     <Border Background="#22202f"
             CornerRadius="5"
             BorderThickness="0.5"
             BorderBrush="Black">
+        
         <StackPanel>
+            <!--
+            <ItemsControl ItemsSource="{Binding CategoryVM.ExpanderCollection}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                       ////// Создаем Expander для каждого элемента в коллекции 
+                        <Expander Header="{Binding Header}" Foreground="White" Background="Transparent">
+                            <TextBox Background="Transparent" BorderThickness="0" FontSize="14" Foreground="White" TextAlignment="Center" Padding="0,10,0,0" IsReadOnly="False"/>
+                        </Expander>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+            -->
+            <ItemsControl ItemsSource="{Binding ExpanderItems}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Expander Header="{Binding Header}" IsExpanded="False">
+                            <TextBlock Text="{Binding Content}" />
+                        </Expander>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+            
+            <Button Content="Add Expander" Command="{Binding AddExpanderCommand}" HorizontalAlignment="Center" Margin="10" />
+
+            
+            <Expander Header="Expand Me" IsExpanded="True">
+                <!-- Содержимое, которое будет скрыто/раскрыто -->
+                <TextBlock Text="This is the content of the Expander." />
+            </Expander>
+            
             <TextBlock Foreground="White"></TextBlock>
             <TextBlock Text="Test text"
-                       TextAlignment="Center"></TextBlock>
+                       TextAlignment="Center">
+                
+            </TextBlock>
         </StackPanel>
     </Border>
 </UserControl>
