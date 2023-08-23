@@ -10,7 +10,7 @@
              Background="Transparent"
              Foreground="White">
     <UserControl.DataContext>
-        <viewModel:HomeViewModel />
+        <viewModel:CategoryViewModel />
     </UserControl.DataContext>
     
     <Border Background="#22202f"

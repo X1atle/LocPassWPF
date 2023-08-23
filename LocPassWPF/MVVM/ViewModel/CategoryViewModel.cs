@@ -9,89 +9,57 @@ namespace LocPassWPF.MVVM.ViewModel
 {
     public class CategoryViewModel : ObservableObject
     {
-        /* 
-        private string _categoryName;
+        private ObservableCollection<ExpanderItemViewModel> _expanderItems;
+        public ICommand AddExpanderCommand { get; private set; }
 
-        public string CategoryName
+        public ObservableCollection<ExpanderItemViewModel> ExpanderItems
         {
-            get => _categoryName;
+            get => _expanderItems;
             set
             {
-                _categoryName = value;
+                _expanderItems = value;
                 OnPropertyChanged();
             }
         }
 
-        private ICommand _createCommand;
-
-        public ICommand CreateCommand
+        public CategoryViewModel()
         {
-            get
+            // Здесь вы можете добавить элементы Expander по умолчанию или из другого источника данных.
+            ExpanderItems = new ObservableCollection<ExpanderItemViewModel>
             {
-                if (_createCommand == null)
-                    _createCommand = new RelayCommand(CreateExpander, CanCreateExpander);
-                return _createCommand;
-            }
+                new ExpanderItemViewModel { Header = "Expander 1", Content = "Content 1" },
+                new ExpanderItemViewModel { Header = "Expander 2", Content = "Content 2" }
+            };
+            AddExpanderCommand = new RelayCommand(AddExpander);
         }
-
-        private bool CanCreateExpander(object parameter)
+        private void AddExpander(object parameter)
         {
-            // Enable the CreateCommand only when CategoryName is not empty
-            return !string.IsNullOrWhiteSpace(CategoryName);
+            ExpanderItems.Add(new ExpanderItemViewModel { Header = "New Expander", Content = "New Content" });
         }
+    }
+    public class ExpanderItemViewModel : ObservableObject
+    {
+        private string _header;
+        private string _content;
 
-        private void CreateExpander(object parameter)
+        public string Header
         {
-            // Create the Expander only if CategoryName is not empty
-            if (!string.IsNullOrWhiteSpace(CategoryName))
-            {
-                Expander newExpander = new Expander
-                {
-                    Header = CategoryName,
-                    Foreground = Brushes.White,
-                    Background = Brushes.Transparent
-                };
-
-                TextBox contentTextBox = new TextBox
-                {
-                    Background = Brushes.Transparent,
-                    BorderThickness = new System.Windows.Thickness(0),
-                    FontSize = 14,
-                    Foreground = Brushes.White,
-                    TextAlignment = System.Windows.TextAlignment.Center,
-                    Padding = new System.Windows.Thickness(0, 10, 0, 0),
-                    IsReadOnly = false
-                };
-
-                newExpander.Content = contentTextBox;
-
-                // Add the Expander to the ExpanderCollection in your UserControl
-                App.Current.Dispatcher.Invoke(() =>
-                {
-                    ExpanderCollection.Add(newExpander);
-                });
-
-                // Clear the CategoryName after creating the Expander
-                CategoryName = string.Empty;
-            }
-        }
-
-        private ObservableCollection<Expander> _expanderCollection;
-
-        public ObservableCollection<Expander> ExpanderCollection
-        {
-            get
-            {
-                if (_expanderCollection == null)
-                    _expanderCollection = new ObservableCollection<Expander>();
-                return _expanderCollection;
-            }
+            get => _header;
             set
             {
-                _expanderCollection = value;
+                _header = value;
                 OnPropertyChanged();
             }
         }
-        */
+
+        public string Content
+        {
+            get => _content;
+            set
+            {
+                _content = value;
+                OnPropertyChanged();
+            }
+        }
     }
 }

@@ -23,7 +23,7 @@ namespace LocPassWPF.MVVM.ViewModel
             CategoryVM = new CategoryViewModel();
         }
         */
-        
+        /*
         private ObservableCollection<ExpanderItemViewModel> _expanderItems;
         public ICommand AddExpanderCommand { get; private set; }
 
@@ -75,6 +75,6 @@ namespace LocPassWPF.MVVM.ViewModel
                 _content = value;
                 OnPropertyChanged();
             }
-        }
+        }*/
     }
 }

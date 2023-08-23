@@ -16,6 +16,10 @@
         MouseMove="Window_MouseMove"
         MouseUp="Window_MouseUp">
    
+    <Window.DataContext>
+        <viewModel:CategoryViewModel />
+    </Window.DataContext>
+    
 
     <Border Background="#272537"
             CornerRadius="10"
@@ -51,7 +55,7 @@
                     VerticalAlignment="Top"
                     Margin="0,190,0,0"
                     Style="{StaticResource MenuButton}"
-                    Command="{Binding CreateCommand}" />
+                    Command="{Binding AddExpanderCommand}" />
 
             <Button x:Name="MinimizeButton"  
                     Content="—" 
