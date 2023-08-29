@@ -9,9 +9,9 @@
              d:DesignHeight="450" d:DesignWidth="800"
              Background="Transparent"
              Foreground="White">
-    <UserControl.DataContext>
-        <viewModel:CategoryViewModel />
-    </UserControl.DataContext>
+    <!--<UserControl.DataContext>
+        <viewModel:HomeViewModel />
+    </UserControl.DataContext>-->
     
     <Border Background="#22202f"
             CornerRadius="5"

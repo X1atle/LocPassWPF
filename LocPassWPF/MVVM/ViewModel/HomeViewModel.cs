@@ -23,7 +23,7 @@ namespace LocPassWPF.MVVM.ViewModel
             CategoryVM = new CategoryViewModel();
         }
         */
-        /*
+        
         private ObservableCollection<ExpanderItemViewModel> _expanderItems;
         public ICommand AddExpanderCommand { get; private set; }
 
@@ -39,6 +39,7 @@ namespace LocPassWPF.MVVM.ViewModel
 
         public HomeViewModel()
         {
+            MainViewModel.Instance.HomeVM = this;
             // Здесь вы можете добавить элементы Expander по умолчанию или из другого источника данных.
             ExpanderItems = new ObservableCollection<ExpanderItemViewModel>
             {
@@ -75,6 +76,6 @@ namespace LocPassWPF.MVVM.ViewModel
                 _content = value;
                 OnPropertyChanged();
             }
-        }*/
+        }
     }
 }
