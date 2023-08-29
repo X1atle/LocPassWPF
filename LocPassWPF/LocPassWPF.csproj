@@ -74,6 +74,7 @@
     <ItemGroup>
         <Compile Include="MVVM\Model\PasswordGenerator.cs" />
         <Compile Include="MVVM\Model\WindowControlling.cs" />
+        <Compile Include="MVVM\ViewModel\CategoryViewModel.cs" />
         <Compile Include="MVVM\ViewModel\HomeViewModel.cs" />
         <Compile Include="MVVM\ViewModel\MainViewModel.cs" />
         <Compile Include="MVVM\ViewModel\PasswordViewModel.cs" />

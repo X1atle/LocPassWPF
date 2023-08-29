@@ -42,6 +42,7 @@ namespace LocPassWPF.Core
         public void CreateCategory_OnClick(object sender, RoutedEventArgs e)
         {
             Window category = new CategoryWindow();
+            
             category.Show();
         }
         public void CreateNote_OnClick(object sender, RoutedEventArgs e)
