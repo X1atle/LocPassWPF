@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\myron\OneDrive\Desktop\SelfStuding\CSharpProjects\LocPassWPF\LocPassWPF\App.xaml
-4-820853319
+7231971260
 
-9-1385850257
+161874778846
 9-1753732648
-MainWindow.xaml;MVVM\View\HomeView.xaml;Theme\MenuButtonTheme.xaml;Theme\TextboxTheme.xaml;
+MainWindow.xaml;MVVM\View\CategoryWindow.xaml;MVVM\View\HomeView.xaml;MVVM\View\NoteWindow.xaml;MVVM\View\PasswordCreating.xaml;Theme\MenuButtonTheme.xaml;Theme\TextboxTheme.xaml;
 
-False
+True
 

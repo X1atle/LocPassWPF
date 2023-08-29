@@ -1,4 +1,5 @@
 ﻿using System.Windows.Controls;
+using LocPassWPF.MVVM.ViewModel;
 
 namespace LocPassWPF.MVVM.View
 {
@@ -7,6 +8,7 @@ namespace LocPassWPF.MVVM.View
         public HomeView()
         {
             InitializeComponent();
+            DataContext = new HomeViewModel();
         }
     }
 }
